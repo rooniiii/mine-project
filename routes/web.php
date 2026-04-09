@@ -17,3 +17,7 @@ Route::get('property', function () {
 Route::get('PD', function () {
     return view('property_datails');
 });
+
+Route::get('waheed', function () {
+    return view('waheed');
+});
